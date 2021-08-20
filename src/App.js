@@ -3,7 +3,7 @@ function App() {
   return (
     <div className='App'>
       {' '}
-      <h1>anis molla</h1>
+      <h1>anis</h1>
     </div>
   );
 }
