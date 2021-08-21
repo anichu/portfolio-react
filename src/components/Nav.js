@@ -5,7 +5,9 @@ const Nav = () => {
   return (
     <StyledNav>
       <h1>
-        <a href='#'>Capture</a>
+        <a href='#' className='logo'>
+          Capture
+        </a>
       </h1>
       <ul>
         <li>
@@ -29,6 +31,7 @@ const StyledNav = styled.nav`
   justify-content: space-between;
   align-items: center;
   padding: 1rem 10rem;
+  background: #282828;
   a {
     color: white;
     text-decoration: none;
@@ -36,6 +39,15 @@ const StyledNav = styled.nav`
   ul {
     display: flex;
     list-style: none;
+  }
+  .logo {
+    font-size: 1.5rem;
+    font-family: 'Lobster', cursive;
+    font-family: lighter;
+  }
+  li {
+    position: relative;
+    padding-left: 10rem;
   }
 `;
 
